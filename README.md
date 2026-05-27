@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Netflix Clone
 
 A responsive Netflix landing page clone built using HTML5 and CSS3.
@@ -15,3 +16,7 @@ A responsive Netflix landing page clone built using HTML5 and CSS3.
 
 ## Learning
 This project was built while learning frontend web development and responsive design concepts.
+=======
+# netflix-clone
+Responsive Netflix Clone built using HTML5 and CSS3 with a modern UI and mobile-friendly design.
+>>>>>>> 560d7f3fae46e2afbfa4d15946a7a6c5c47ccf42
