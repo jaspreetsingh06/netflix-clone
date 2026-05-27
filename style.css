@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+body{
+    background-color: black;
+}
+.main{
+    background-image: url(Assets/Images/DE-en-20250217-TRIFECTA-perspective_392306f5-295e-4e1d-b227-8917f20d24a2_medium.jpeg);
+    background-size: max(1200px, 100vw);
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 99vh;
+    width: 100%;
+    position: relative;
+
+}
+
+.main .box{
+    background-color: black;
+    height: 99vh;
+    width: 100%;
+    opacity: 0.8;
+    top: 0;
+    position: absolute;
+}
+ nav{
+    max-width: 80vw;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    align-items: center;
+    height: 100px;
+}
+nav span img{
+    color: red;
+    width: 145px;
+    position: relative;
+    z-index: 10;
+    
+}
+ nav button{
+    position: relative;
+    z-index: 10;
+}
+.main .text{
+    color: white;
+    height: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-style: normal;
+    padding-top: 60px;
+    }
+ 
+.main .text> :nth-child(1){
+    font-size: 58px;
+    font-weight: bolder;
+}  
+.main .text> :nth-child(2){
+    font-size: 58px;
+    font-weight: bolder;
+}
+.main .text> :nth-child(3){
+    font-size: 22px;
+    padding-top: 15px;
+}
+.main .text> :nth-child(4){
+    font-size: 14px;
+    padding-top: 33px;
+
+}
+.btn{
+    font-size: 15px;
+    padding: 5px 15px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+}
+.btn1{
+    background-color: rgba(23, 23, 23, 0.7);
+    border: 1px solid rgba(246, 238, 238, 0.5);
+    font-size: 15px;
+    padding: 5px 15px;
+    border-radius: 6px;
+    color: white;
+    cursor: pointer;
+}
+.textbuttons{
+    padding-top: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+}
+.btnred1{
+    color: white;
+    background-color: red;
+    border: none;
+    cursor: pointer;
+}
+.btnred2{
+    color: white;
+    background-color: red;
+    font-size: 23px;
+    padding: 10px 30px;
+    cursor: pointer;
+}
+.textbuttons input{
+    font-size: 12px;
+    padding: 17px;
+    border-radius: 6px;
+    border: none;
+    padding-right: 220px;
+    background-color: rgba(23, 23, 23, 0.7);
+    border: 1px solid rgba(246, 238, 238, 0.5);
+    cursor: pointer;
+    
+}
+.separation{
+    height: 5px;
+    width: 100%;
+    background-color: red;
+}
+.text3{
+    color: white;
+    font-size: 24px;
+    font-weight: 500;
+    margin-left: 120px;
+    margin-top: 50px;
+
+}
+.text2{
+    color: white;
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-style: normal;
+    margin: 120px;
+    margin-bottom: 10px;
+    font-size: 26px;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 260px 260px 260px 260px;
+    grid-template-rows: 350px ;
+    color: white;
+    margin-left: 120px;
+    margin-right: 120px;
+    column-gap: 20px;
+}
+.grid .item{
+    background-color: #1e162b;
+    /* text-align: center; */
+    border-radius: 18px;
+    padding: 20px 30px ;
+}
+.grid .item :first-child{
+    font-size: 20px;
+    padding-bottom: 15px;
+   
+    
+    /* text-align: center; */
+    font-weight: 700;
+}
+.grid .item :nth-child(2){
+    font-size: 15px;
+    color: gray;
+}
+
+.faq h2 {
+    margin-left: 85px;
+    margin-top: 40px;
+    font-size: 24px;
+}
+
+.faq {
+    color: white;
+    padding: 34px;
+}
+
+.faqbox:hover {
+    background-color: #414141;
+    color: white;
+}
+
+.faqbox svg {
+    filter: invert(1);
+}
+
+.faqbox {
+    transition: all 1s ease-out;
+    font-size: 24px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #2d2d2d;
+    padding: 24px;
+    max-width: 78vw;
+    margin-left: 85px;
+    margin-top: 8px;
+    cursor: pointer;
+}
+
+.last span{
+    font-family: 'Segoe UI';
+    font-size: 16px;
+    color: white;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.last input{
+    font-size: 12px;
+    padding: 23px;
+    border-radius: 6px;
+    border: none;
+    padding-right: 470px;
+    background-color: rgba(23, 23, 23, 0.7);
+    border: 1px solid rgba(246, 238, 238, 0.5);
+    cursor: pointer;
+    margin-left: 220px;
+    margin-top: 6px;
+    color: white;
+    text-align: center;
+}
+.last button{
+    color: white;
+    background-color: red;
+    font-size: 23px;
+    padding: 15px 35px;
+    cursor: pointer;
+    border-radius: 6px;
+    border: none;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.questions{
+    color: rgb(142, 131, 131);
+    margin-top: 70px;
+    margin-left: 80px;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 300px 300px 300px 300px;
+    grid-template-rows: 400px 400px 400px 400px;
+    color:  rgb(142, 131, 131);
+    margin-left: 80px;
+    margin-top: 40px;
+}
+.container .content ul li{
+    list-style: none;
+    color:  rgb(142, 131, 131);
+    padding: 8px;
+    font-size: 14px;
+}
+.container .content ul li a{
+    color: rgb(142, 131, 131);
+}
+
+
+
+
+
